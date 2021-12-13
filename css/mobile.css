@@ -1,0 +1,158 @@
+@media screen and (max-width: 391px) {
+
+    .ancho{
+        max-width: 380px;
+        margin: auto;
+    }
+
+    .menu{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: white;
+    }
+
+    .menu{
+        margin-top: 60px;
+        width: 300px;
+        gap: 0px;
+        box-shadow: 0 0 10px black ;
+        z-index: 4;
+    }
+
+    .menu li a {
+        display: block;
+        padding: 10px;
+        width: 300px;
+        border-bottom: 1px dotted white;
+    }
+
+    #icono-menu{
+        display: block;
+    }
+
+    .navegacion ul{
+        position: absolute;
+        left: -390px;
+    }
+
+    .fl-home{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-home-fb{
+        width: 380px;
+    }
+
+    .fl-home{
+        padding: 40px 10px 10px 10px;
+    }
+
+    .home-fb h2{
+        font-size: 45px;
+        width: 300px;
+    }
+
+    .home-fb p{
+        font-size: 14px;
+        width: 340px;
+    }
+    
+    .home-fb figure img{
+        width: 360px;
+        margin: 40px 0px 50px 0px
+    }
+
+    .about-fb{
+        padding-bottom: 20px;
+    }
+    
+    .fl-about{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+
+    .fl-about figure img{
+        width: 360px;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .text-about-fb{
+        width: 360px;
+    }
+
+    .text-about-fb h2{
+        font-size: 45px;
+        line-height: 50px;
+        width: 320px;
+        padding: 20px 0px 30px 0px;
+    }
+
+    .portfolio-fb{
+        display: grid;
+        grid-template: repeat(6,1fr)/auto;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .content-reasons{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        gap: 40px;
+    }
+
+    .img-content-reasons img{
+        width: 350px;
+    }
+
+    .cards-feedback{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-testimonial{
+        width: 350px;
+    }
+
+    .fl-classes-left{
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px 0px 40px 0px;
+    }
+
+    .fl-classes{
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .classes-fb{
+        background: linear-gradient(
+            to left,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),
+        url(../img/cuerpo/foto3.jpg) no-repeat;
+        background-size: cover
+    }
+
+    .fl-classes-right{
+        flex-direction: column;
+    }
+
+    .card-classes-right-up{
+        flex-direction: column;
+    }
+
+    .card-classes-right-down{
+        flex-direction: column;
+    }
+
+}
