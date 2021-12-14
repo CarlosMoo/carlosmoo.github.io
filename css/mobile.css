@@ -155,4 +155,19 @@
         flex-direction: column;
     }
 
+    .footer-up{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconos-article{
+        margin: 20px 0 20px 0;
+    }
+
+    .maps iframe{
+        width: 350px;
+        height: 350px;
+    }
 }
