@@ -186,4 +186,54 @@
     .card-individual-pricing-three{
         margin-bottom: 30px;
     }
+
+    .formulario-modal{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+    }
+
+    .callbacks .caption {
+        height: 40%;
+    }
+
+    .modal-cont{
+        width: 350px;
+        text-align: right;
+    }
+
+    .li-modal{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .radio-modal{
+        gap: 10px;
+    }
+
+    .radio-modal label{
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .content-modal h1{
+        font-size: 16px;
+    }
+
+    .formulario-modal li input{
+        height: 30px;
+    }
+
+    .content-modal{
+        margin-top: 8px;
+        padding: 15px 30px;
+        background-color: white;
+        text-align: center;
+        box-shadow: 0 0 10px black;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+    }
 }

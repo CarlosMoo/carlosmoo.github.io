@@ -411,7 +411,7 @@
                                     <li><i class="fas fa-check"></i><span>Crossfit</span></li>
                                     <li><i class="fas fa-check"></i><span>Yoga</span></li>
                                 </ul>
-                                <a class="btn-home2 hvr-sweep-to-bottom-blue">BUY NOW</a>
+                                <a class="btn-buy hvr-sweep-to-bottom-blue" id="btnbuy">BUY NOW</a>
                             </div>
                         </div>
 
@@ -430,7 +430,7 @@
                                     <li><i class="fas fa-check"></i><span>Crossfit</span></li>
                                     <li><i class="fas fa-check"></i><span>Yoga</span></li>
                                 </ul>
-                                <a class="btn-home2 hvr-sweep-to-bottom-blue">BUY NOW</a>
+                                <a class="btn-buy hvr-sweep-to-bottom-blue" id="btnbuy2">BUY NOW</a>
                             </div>
                         </div>
 
@@ -449,9 +449,60 @@
                                     <li><i class="fas fa-check"></i><span>Crossfit</span></li>
                                     <li><i class="fas fa-check"></i><span>Yoga</span></li>
                                 </ul>
-                                <a class="btn-home2 hvr-sweep-to-bottom-blue">BUY NOW</a>
+                                <a class="btn-buy hvr-sweep-to-bottom-blue" id="btnbuy3">BUY NOW</a>
                             </div>
                         </div>
+                </div>
+
+                <div class="card-modal" id="modal">
+                    <div class="modal-cont">
+                        <i id="btncerrar" class="fas fa-window-close fa-2x"></i>
+                        <section class="content-modal">
+                            <form class="ancho-form">
+                                <ul class="formulario-modal">
+                                    <h1>Name</h1>
+                                    <li>
+                                        <input type="text" id="name-form" name="nombre_cliente" required>
+                                    </li>
+                                    <div class="form-two">
+                                        <div class="sub-form-two-text">
+                                            <h1>Phone number</h1>
+                                            <li class="number-button-two">
+                                                <button class="hvr-sweep-to-bottom-bluetwo" >US</button>
+                                                <input type="text" id="phone-form" name="telefono_cliente" placeholder="  +1" required>
+                                            </li>
+                                        </div>
+                                            <h1>Email</h1>
+                                        <div class="sub-form-two-fields">
+                                            <li>
+                                                <input type="text" id="name-form" name="email_cliente" placeholder="  Email*" required>
+                                            </li>
+                                        </div>
+                                    </div>
+                                    <h1>Package you want to buy</h1>
+                                    <li class="li-modal">
+                                        <div class="radio-modal">
+                                            <input type="radio" id="silver-plan" name="mensaje_cliente" value="silver-plan" required>
+                                            <label for="silver-plan">Silver Plan</label>
+                                        </div>
+
+                                        <div class="radio-modal">
+                                            <input type="radio" id="gold-plan" name="mensaje_cliente" value="gold-plan" required>
+                                            <label for="gold-plan">Gold Plan</label>
+                                        </div>
+
+                                        <div class="radio-modal">
+                                            <input type="radio" id="diamond-plan" name="mensaje_cliente" value="diamond-plan" required>
+                                            <label for="diamond-plan">Diamond Plan</label>
+                                        </div>
+                                    </li>
+                                    <li class="btn-submit">
+                                        <button type="submit" class="hvr-sweep-to-bottom-blue">SEND</button>
+                                    </li>
+                                </ul>
+                            </form>
+                        </section>
+                    </div>
                 </div>
             </div>
         </section>

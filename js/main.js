@@ -50,5 +50,33 @@ $(function() {
   $(".rslides").responsiveSlides();
 });
 
+$(document).ready(function(){
+  $(function () {
+      var mostrarmodal = document.getElementById("modal");
+      var cerrarmodal = document.getElementById("btncerrar");
+      var btnbuy = document.getElementById("btnbuy");
+      var btnbuy2 = document.getElementById("btnbuy2");
+      var btnbuy3 = document.getElementById("btnbuy3");
 
+      btncerrar.onclick = function(){
+          mostrarmodal.style.display = "none";
+      }
+
+      btnbuy.onclick = function(){
+          mostrarmodal.style.display = "flex";
+      }
+      btnbuy2.onclick = function(){
+          mostrarmodal.style.display = "flex";
+      }
+      btnbuy3.onclick = function(){
+          mostrarmodal.style.display = "flex";
+      }
+
+      window.onclick = function(event){
+          if (event.target == mostrarmodal){
+              mostrarmodal.style.display = "none";
+          }
+      };
+  });
+});
   

@@ -1001,6 +1001,22 @@
     font-weight: 500px;
 }
 
+.btn-buy{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: var(--azul);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px #ccc;
+    margin-bottom: 20px;
+}
+
+
 /* boton flotante */
 
 #btn-top{
@@ -1333,4 +1349,139 @@ footer{
     font-size: 10px;
     font-family: 'Open Sans', sans-serif;
     color: var(--gris);
+}
+
+/* section modal */
+
+.card-modal{
+    background-color: rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    overflow: auto;
+}
+
+.modal-cont{
+    width: 900px;
+    text-align: right;
+}
+
+.modal-cont i{
+    color: var(--azul);
+    text-align: right;
+    cursor: pointer;
+}
+
+.content-modal{
+    margin-top: 8px;
+    padding: 40px 30px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.content-modal h2{
+    padding: 20px 0;
+    font-size: 35px;
+}
+
+.content-modal input{
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border: 1px gray solid;
+}
+
+.content-modal input:nth-child(6) {
+    padding: 30px 0 110px 10px;
+}
+
+.container-text-two input:nth-child(4) {
+    padding: 30px 0 110px 10px;
+}
+
+.content-modal h1{
+    font-family: 'Noto Serif', sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+    color: var(--azul);
+}
+
+.formulario-modal{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 835px;
+}
+
+.formulario-modal h1{
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: var(--azul);
+    padding: 10px 0px 10px 0px;
+}
+form{
+    margin-bottom: 10px;
+}
+
+.formulario-modal .btn-submit button{
+    color: white;
+    background-color: var(--azul);
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.formulario-modal li input{
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    border: 1px solid var(--azul);
+    background-color: #f4f5f8;
+    outline: none;
+    padding: 20px
+}
+
+.radio-modal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.radio-modal input{
+    color: var(--azul);
+    background-color: var(--azul);
+}
+
+.radio-modal label{
+    width: 230px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.li-modal{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.number-button-two button{
+    display: none;
 }
