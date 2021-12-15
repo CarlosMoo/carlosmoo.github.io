@@ -35,5 +35,20 @@ $(document).ready(function()
     $('#slider1').tinycarousel();
 });
 
+$(document).ready(function(){
+  $('.menu li').click(function(){
+    $('.menu li').each(function(){
+     //Recorremos todos los "li" para quitarles los fondos
+      $(this).css('border-bottom', ' 2px white solid');
+    });
+    //Se lo añadimos al que se le hace el click
+    $(this).css('border-bottom', ' 2px #ff4048 solid');
+  });
+});
+
+$(function() {
+  $(".rslides").responsiveSlides();
+});
+
 
   

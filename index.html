@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/hover.css">
     <link rel="stylesheet" href="css/slide.css">
     <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Abel|Oswald|Roboto|Roboto+Condensed|Teko|Open+Sans" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
@@ -73,8 +74,8 @@
                     <p>Unlike a multitude of other wellbeing and healthy lifestyle venues, like fitness clubs or studios, we do not limit ourselves to just one field.</p>
     
                     <div class="buttons-home">
-                        <a href="#" class="btn-home1 hvr-sweep-to-bottom-white">GET ENROLLED</a>
-                        <a href="#" class="btn-home2 hvr-sweep-to-bottom-blue">READ MORE</a>
+                        <a class="btn-home1 hvr-sweep-to-bottom-white">GET ENROLLED</a>
+                        <a class="btn-home2 hvr-sweep-to-bottom-blue">READ MORE</a>
                     </div>
                 </article>
                 <figure>
@@ -83,7 +84,7 @@
             </div>
         </section>
     
-        <section class="about-fb">
+        <section class="about-fb" id="about">
             <div class="fl-about ancho">
                 <article class="text-about-fb">
                     <h1>Impressions</h1>
@@ -94,7 +95,7 @@
                         <li><i class="fas fa-check"></i><span>Achieve a Specific Goal</span></li>
                         <li><i class="fas fa-check"></i><span>Personal Trainers</span></li>
                     </ul>
-                    <a href="#" class="btn-home2 hvr-sweep-to-bottom-blue">LEARN MORE</a>
+                    <a class="btn-home2 hvr-sweep-to-bottom-blue">LEARN MORE</a>
                 </article>
                 <figure>
                     <img src="img/cuerpo/foto2.jpg" alt="">
@@ -102,7 +103,7 @@
             </div>
         </section>
 
-        <section class="classes-fb">
+        <section class="classes-fb" id="classes">
             <div class="fl-classes ancho">
                 <div class="fl-classes-left">
                     <article class="text-classes-fb">
@@ -235,7 +236,7 @@
             </div>
         </section> 
 
-        <section class="fl-portfolio">
+        <section class="fl-portfolio" id="portfolio">
             <article class="title">
                 <h1>Our Portfolio</h1>
                 <hr class="line-blue-1">
@@ -282,8 +283,8 @@
             </article>
         </section>
 
-        <section class="trainers-fb"  id="slider1">
-            <div class="bg-img">
+        <section class="trainers-fb" id="slider1">
+            <div class="bg-img" id="trainers">
                 <article class="title">
                     <h1>Our Trainers</h1>
                     <hr class="line-blue-1">
@@ -387,7 +388,75 @@
             </div>
         </section>
 
-        <section class="testimonial-fb">
+        <section class="pricing-fb" id="pricing">
+            <div class="fl-princing ancho">
+                <article class="title">
+                    <h1>Our Pricing</h1>
+                    <hr class="line-blue-1">
+                    <hr class="line-blue-2">
+                </article>
+                <div class="cards-pricing">
+                        <div class="card-individual-pricing-one">
+                            <div class="promocion">
+                                <h1>-20%</h1>
+                            </div>
+                            <h3>SILVER PLAN</h3>
+                            <h2>$12.99</h2>
+                            <p>Per Month</p>
+                            <div style="height: 100px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 535.21,46.88 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path></svg></div>
+                            <div class="content-white-pricing">
+                                <ul class="ventajas">
+                                    <li><i class="fas fa-check"></i><span>Open Gym</span></li>
+                                    <li><i class="fas fa-check"></i><span>Gymnastics</span></li>
+                                    <li><i class="fas fa-check"></i><span>Crossfit</span></li>
+                                    <li><i class="fas fa-check"></i><span>Yoga</span></li>
+                                </ul>
+                                <a class="btn-home2 hvr-sweep-to-bottom-blue">BUY NOW</a>
+                            </div>
+                        </div>
+
+                        <div class="card-individual-pricing-two">
+                            <div class="promocion">
+                                <h1>-30%</h1>
+                            </div>
+                            <h3>SILVER PLAN</h3>
+                            <h2>$22.99</h2>
+                            <p>Per Month</p>
+                            <div style="height: 100px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 535.21,46.88 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path></svg></div>
+                            <div class="content-white-pricing">
+                                <ul class="ventajas">
+                                    <li><i class="fas fa-check"></i><span>Open Gym</span></li>
+                                    <li><i class="fas fa-check"></i><span>Gymnastics</span></li>
+                                    <li><i class="fas fa-check"></i><span>Crossfit</span></li>
+                                    <li><i class="fas fa-check"></i><span>Yoga</span></li>
+                                </ul>
+                                <a class="btn-home2 hvr-sweep-to-bottom-blue">BUY NOW</a>
+                            </div>
+                        </div>
+
+                        <div class="card-individual-pricing-three">
+                            <div class="promocion">
+                                <h1>-35%</h1>
+                            </div>
+                            <h3>SILVER PLAN</h3>
+                            <h2>$32.99</h2>
+                            <p>Per Month</p>
+                            <div style="height: 100px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 535.21,46.88 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path></svg></div>
+                            <div class="content-white-pricing">
+                                <ul class="ventajas">
+                                    <li><i class="fas fa-check"></i><span>Open Gym</span></li>
+                                    <li><i class="fas fa-check"></i><span>Gymnastics</span></li>
+                                    <li><i class="fas fa-check"></i><span>Crossfit</span></li>
+                                    <li><i class="fas fa-check"></i><span>Yoga</span></li>
+                                </ul>
+                                <a class="btn-home2 hvr-sweep-to-bottom-blue">BUY NOW</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial-fb" id="testimonial">
             <div class="fl-testimonial ancho">
                 <article class="title">
                     <h1>Client's Feedback</h1>
@@ -395,7 +464,7 @@
                     <hr class="line-blue-2">
                 </article>
                 <div class="cards-feedback">
-                    <div class="card-testimonial">
+                    <div class="card-testimonial wow animate__animated animate__backInLeft">
                         <article class="testimonial-person">
                             <figure>
                                 <img src="img/cuerpo/feedback1.jpg" alt="">
@@ -414,7 +483,7 @@
                                 purpose of physical exercise."</p>
                         </article>
                     </div>
-                    <div class="card-testimonial">
+                    <div class="card-testimonial wow animate__animated animate__backInRight">
                         <article class="testimonial-person">
                             <figure>
                                 <img src="img/cuerpo/feedback2.jpg" alt="">
@@ -507,15 +576,15 @@
                     <ul class="rslides" id="slider4">
                       <li>
                         <img src="img/cuerpo/caption2.jpg" alt="">
-                        <p class="caption">This is a caption</p>
+                        <p class="caption">The best coaches from different countries ready to help you in your daily routine so that you are the best of the best.</p>
                       </li>
                       <li>
                         <img src="img/cuerpo/caption1.jpg" alt="">
-                        <p class="caption">This is another caption</p>
+                        <p class="caption">With all the necessary sanitary measures to take care of you, take care of ourselves and take care of your family.</p>
                       </li>
                       <li>
                         <img src="img/cuerpo/caption3.jpg" alt="">
-                        <p class="caption">The third caption</p>
+                        <p class="caption">Working day by day so that you are the best of the best in everything that you propose to yourself sportingly.</p>
                       </li>
                     </ul>
                   </div>
@@ -536,7 +605,7 @@
             </article>
         </section>
 
-        <section class="form-fb">
+        <section class="form-fb" id="contact">
             <article class="title">
                 <h1>Get in Touch</h1>
                 <hr class="line-blue-1">
@@ -549,23 +618,26 @@
                         <input type="text" id="name-form" name="nombre_cliente" required>
                     </li>
                     <div class="form-two">
-                        <div class="sub-form-two">
-                            <h1>Phone no.</h1>
-                            <li>
+                        <div class="sub-form-two-text">
+                            <h1>Phone number</h1>
+                            <li class="number-button">
+                                <button class="hvr-sweep-to-bottom-bluetwo" >US</button>
                                 <input type="text" id="phone-form" name="telefono_cliente" placeholder="  +1" required>
                             </li>
                         </div>
-                        <h1>Email</h1>
-                        <li>
-                            <input type="text" id="name-form" name="email_cliente" placeholder="  Email*" required>
-                        </li>
+                            <h1>Email</h1>
+                        <div class="sub-form-two-fields">
+                            <li>
+                                <input type="text" id="name-form" name="email_cliente" placeholder="  Email*" required>
+                            </li>
+                        </div>
                     </div>
                     <h1>Message</h1>
                     <li>
                         <input type="text" id="name-form" name="mensaje_cliente" placeholder="  Leave Your Message" required>
                     </li>
-                    <li>
-                        <button type="submit">SEND MESSAGE</button>
+                    <li class="btn-submit">
+                        <button type="submit" class="hvr-sweep-to-bottom-blue">SEND MESSAGE</button>
                     </li>
                 </ul>
             </form>
